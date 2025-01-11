@@ -21,3 +21,7 @@ The project consists of a [Server](https://github.com/Blast12345/LightOrganServe
 ## Setup
 
 TBD
+
+## Contribution Guidelines
+
+TBD
