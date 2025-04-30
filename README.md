@@ -1,6 +1,6 @@
-# Synaesthetic Color Organ
+# Synesthetic Color Organ
 
-The Synesthetic Color Organ is a real-time, sound reactive light show. The name of the project comes from the words synaesthesia and aesthetic.
+The Synesthetic Color Organ is a real-time, sound reactive light show. The name of the project comes from the words synesthesia and aesthetic.
 
 My goal was to be able to play a song and have LEDs illuminate with colors derived from the frequencies present in the music, resulting in a unique yet deterministic light show catered to the song. This concept is colloquially known as a light organ or color organ.
 
