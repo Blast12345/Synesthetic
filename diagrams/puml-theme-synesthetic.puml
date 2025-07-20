@@ -10,8 +10,6 @@ author: Alex Larson
 !$BLACK = "#000000"
 !$WHITE = "#dedede"
 !$TEAL = "#63d7c6"
-!$FGCOLOR = "#b388f5"
-
 
 <style>
   root {
