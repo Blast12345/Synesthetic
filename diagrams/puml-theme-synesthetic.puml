@@ -1,0 +1,28 @@
+---
+name: synesthetic
+description: A theme that matches the Synesthetic color scheme.
+author: Alex Larson
+---
+
+!$THEME = "synesthetic"
+
+!$PUPRLE= "#b388f5"
+!$BLACK = "#000000"
+!$WHITE = "#dedede"
+!$TEAL = "#63d7c6"
+!$FGCOLOR = "#b388f5"
+
+
+<style>
+  root {
+    BackgroundColor $PUPRLE
+    FontColor $BLACK
+    Margin 10
+  }
+</style>
+
+skinparam ArrowColor $TEAL
+skinparam ArrowFontColor $WHITE
+skinparam BackgroundColor transparent
+skinparam RectangleBackgroundColor $BLACK
+skinparam RoundCorner 10
