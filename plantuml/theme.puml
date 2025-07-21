@@ -21,6 +21,5 @@ author: Alex Larson
 
 skinparam ArrowColor $TEAL
 skinparam ArrowFontColor $WHITE
-skinparam BackgroundColor transparent
-skinparam RectangleBackgroundColor $BLACK
-skinparam RoundCorner 10
+skinparam BackgroundColor $BLACK
+skinparam TitleFontColor $WHITE

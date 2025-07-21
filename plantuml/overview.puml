@@ -1,0 +1,29 @@
+@startuml
+
+!include theme.puml
+
+' orientation
+left to right direction
+
+' components
+cloud Audio
+node Server
+node Gateway
+node Client1 as "Client 1"
+node Client2 as "Client 2"
+node Client3 as "Client 3"
+node Client1Leds as "LEDs"
+node Client2Leds as "LEDs"
+node Client3Leds as "LEDs"
+
+' relationships
+Audio --> Server
+Server --> Gateway : Colors
+Gateway -[dotted]-> Client1
+Gateway -[dotted]-> Client2
+Gateway -[dotted]-> Client3
+Client1 --> Client1Leds
+Client2 --> Client2Leds
+Client3 --> Client3Leds
+
+@enduml

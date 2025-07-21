@@ -14,9 +14,11 @@ As I sought out other options, I came across videos of people building their own
 
 ## High Level Overview
 
-The project consists of a [Server](https://github.com/Blast12345/LightOrganServer) and a [Client](https://github.com/Blast12345/LightOrganClient). The server’s job is to extract colors from an audio source and send the colors to the clients over WiFi. The client’s job is to receive the colors and display them on connected LEDs.
+The project consists of a [Server](https://github.com/Blast12345/LightOrganServer), a [Gateway](https://github.com/Blast12345/LightOrganGateway) and a [Client](https://github.com/Blast12345/LightOrganClient). 
 
-![Overview](overview.png)
+Audio flows into the server. The server generates colors and provides them to the gateway. The gateway routes the colors to the clients. The clients display the colors on the LEDs.
+
+![Overview](plantuml/overview.svg)
 
 ## Setup
 
