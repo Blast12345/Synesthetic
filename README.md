@@ -12,13 +12,15 @@ This project differs from off-the-shelf party lights in that party lights are a 
 
 As I sought out other options, I came across videos of people building their own light organs. I found the related GitHub projects, but I had troubles compiling them and - ultimately - they weren’t quite what I was looking for. These projects served as the inspiration to build my own.
 
-## High Level Overview
+## System Overview
 
 The project consists of a [Server](https://github.com/Blast12345/LightOrganServer), a [Gateway](https://github.com/Blast12345/LightOrganGateway) and a [Client](https://github.com/Blast12345/LightOrganClient). 
 
 Audio flows into the server. The server generates colors and provides them to the gateway. The gateway routes the colors to the clients. The clients display the colors on the LEDs.
 
-![Overview](plantuml/overview.svg)
+<div align="center">
+  <img src="plantuml/overview.svg" alt="Overview">
+</div>
 
 ## Setup
 
